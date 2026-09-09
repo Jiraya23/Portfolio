@@ -103,7 +103,7 @@ export default function Footer() {
           <p>
             © 2026 Myli. {tFooter("rights")}.
           </p>
-          <p>Fait avec Next.js, shadcn/ui et une stack prete pour Docker.</p>
+         {/*  <p>Fait avec Next.js, shadcn/ui et une stack prete pour Docker.</p> */}
         </div>
       </div>
     </footer>
