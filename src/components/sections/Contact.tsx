@@ -78,27 +78,27 @@ export default function Contact() {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-20">
           <div className="space-y-8 lg:col-span-2">
-            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-6 sm:p-8 md:p-10 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 min-w-0 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-12 rounded-xl flex items-center gap-6 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 bg-[#8b5cf6]/10 rounded-full flex items-center justify-center shrink-0">
                 <Mail className="text-[#8b5cf6] w-6 h-6" />
               </div>
               <div className="min-w-0">
                 <div className="text-muted-foreground text-sm tracking-wide font-medium mb-1">Email</div>
-                <div className="font-bold text-foreground text-base sm:text-lg break-all">Mbougniayann@gmail.com</div>
+                <div className="font-bold text-foreground text-[0.95rem] sm:text-lg break-all">Mbougniayann@gmail.com</div>
               </div>
             </div>
 
-            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-6 sm:p-8 md:p-10 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 min-w-0 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-12 rounded-xl flex items-center gap-6 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 bg-[#8b5cf6]/10 rounded-full flex items-center justify-center shrink-0">
                 <Phone className="text-[#8b5cf6] w-6 h-6" />
               </div>
               <div className="min-w-0">
                 <div className="text-muted-foreground text-sm tracking-wide font-medium mb-1">Téléphone</div>
-                <div className="font-bold text-foreground text-base sm:text-lg break-words">+237 651 877 541</div>
+                <div className="font-bold text-foreground text-[0.95rem] sm:text-lg break-words">+237 651 877 541</div>
               </div>
             </div>
 
-            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-6 sm:p-8 md:p-10 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 min-w-0 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-card/60 backdrop-blur-[16px] border border-border p-12 rounded-xl flex items-center gap-6 hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 bg-[#8b5cf6]/10 rounded-full flex items-center justify-center shrink-0">
                 <MapPin className="text-[#8b5cf6] w-6 h-6" />
               </div>
@@ -106,7 +106,7 @@ export default function Contact() {
                 <div className="text-muted-foreground text-sm tracking-wide font-medium mb-1">
                   {t('location') || 'Localisation'}
                 </div>
-                <div className="font-bold text-foreground text-base sm:text-lg md:text-xl leading-tight break-words">Douala, Cameroun</div>
+                <div className="font-bold text-foreground text-[1.05rem] sm:text-xl leading-tight break-words">Douala, Cameroun</div>
               </div>
             </div>
 

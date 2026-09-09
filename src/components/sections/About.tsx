@@ -64,7 +64,7 @@ export default function About() {
               <p>{t('bio2')}</p>
             </div>
 
-            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <div className="mt-10 grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
@@ -72,13 +72,13 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-                  className="p-4 sm:p-6 rounded-2xl bg-secondary border border-border backdrop-blur-sm hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-accent-500/40 hover:-translate-y-1 transition-all duration-300"
+                  className="p-6 rounded-2xl bg-secondary border border-border backdrop-blur-sm hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] hover:border-accent-500/40 hover:-translate-y-1 transition-all duration-300"
                 >
                   <div className="flex items-center gap-3 mb-2">
-                    <stat.icon className="w-4 h-4 sm:w-5 sm:h-5 text-accent-400 shrink-0" />
-                    <span className="text-xs sm:text-sm text-muted-foreground">{stat.label}</span>
+                    <stat.icon className="w-5 h-5 text-accent-400 shrink-0" />
+                    <span className="text-sm text-muted-foreground">{stat.label}</span>
                   </div>
-                  <div className="text-xl sm:text-2xl font-bold text-foreground leading-tight break-words">{stat.value}</div>
+                  <div className="text-[1.05rem] sm:text-2xl font-bold text-foreground leading-tight break-words">{stat.value}</div>
                 </motion.div>
               ))}
             </div>
